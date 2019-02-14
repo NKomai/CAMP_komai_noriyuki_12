@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/ui-darkness/jquery-ui.css" >
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="todo.js"></script>
+    <title>ToDoList</title>
+</head>
+
+<body id="body">
+
+    <div class="wrap">
+
+        <div class="form-box">  
+            <dl class="f-b-todo">
+                <dt>Todo</dt>
+                <dd><input type="text" name="todo"></dd>
+            </dl>
+            <dl class="f-b-limit">    
+                <dt>Limit</dt>
+                <dd><input type="date" name="limit"></dd>
+            </dl>
+            <dl class="f-b-button">
+                <dt>　</dt>
+                <dd><button id="add" name="pluslist">追加</button></dd>
+            </dl>    
+        </div>
+
+
+        <div class="list">
+            <table>
+                <tr>
+                    <th class="th1">Todo</th>
+                    <th class="th2">Limit</th>
+                    <th class="th3">Done</th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>

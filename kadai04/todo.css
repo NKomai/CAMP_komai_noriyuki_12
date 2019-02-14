@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-------------*/
+#body{
+    max-width:1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin:20px auto;
+}
+
+.form-box dl{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-box dt{
+    font-size: 21px;
+}
+
+.form-box dd{
+    margin-left: 0;
+    width:100%;
+}
+
+.f-b-todo{
+    width:60%;
+}
+
+.f-b-limit{
+    width:30%;
+}
+
+.f-b-button{
+    width:10%;
+}
+
+.f-b-button button{
+    width:80%;
+    font-weight: bold;
+}
+
+dl input{
+    width:90%;
+}
+
+.list table{
+    border:2px solid #000;
+    width: 100%;
+    text-align: left;
+}
+
+.list table th{
+    border-bottom: 2px solid #000;
+}
+
+.th1{
+    width:60%;
+    border-bottom: 1px solid #000; 
+}
+
+.th2{
+    width:30%;
+    border-left: 1px solid #000; 
+    border-bottom: 1px solid #000; 
+    padding-left: 5px;
+}
+
+.th3{
+    width:10%;
+    border-left: 1px solid #000; 
+    border-bottom: 1px solid #000; 
+    text-align: center;
+}
+
+.list button{
+    width:80%;
+    font-weight: bold;
+}
